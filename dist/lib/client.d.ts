@@ -128,7 +128,12 @@
  * @typedef {SystemItemType|UserItemType|AssistantItemType|FunctionCallItemType|FunctionCallOutputItemType} BaseItemType
  */
 /**
- * @typedef {FormattedItemType & BaseItemType} ItemType
+ * @typedef {Object} TimeItemType
+ * @property {string} start_time
+ * @property {string} end_time
+ */
+/**
+ * @typedef {FormattedItemType & BaseItemType & TimeItemType} ItemType
  */
 /**
  * @typedef {Object} IncompleteResponseStatusType
