@@ -2,6 +2,8 @@
  * Contains text and audio information about a item
  * Can also be used as a delta
  * @typedef {Object} ItemContentDeltaType
+ * @property {string} [start_time]
+ * @property {string} [end_time]
  * @property {string} [text]
  * @property {Int16Array} [audio]
  * @property {string} [arguments]
